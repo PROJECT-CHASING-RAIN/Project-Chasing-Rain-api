@@ -1,0 +1,6 @@
+@Chasing_Rain.Api_HostAddress = http://localhost:5130
+
+GET {{Chasing_Rain.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

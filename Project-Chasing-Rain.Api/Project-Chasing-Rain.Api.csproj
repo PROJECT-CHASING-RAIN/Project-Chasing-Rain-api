@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Project-Chasing-Rain.Domain\Project-Chasing-Rain.Domain.csproj" />
+    <ProjectReference Include="..\Project-Chasing-Rain.Data\Project-Chasing-Rain.Data.csproj" />
   </ItemGroup>
 
 </Project>

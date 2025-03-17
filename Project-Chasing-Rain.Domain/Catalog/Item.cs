@@ -8,7 +8,7 @@ namespace Project.Chasing.Rain.Domain.Catalog
         public string Description { get; set; }
         public string Brand { get; set; }
         public decimal Price { get; set; }
-        public List<Ratings> Ratings {get; set;} = new List<Ratings>();
+        public List<Ratings>? Ratings {get; set;} = new List<Ratings>();
 
         public Item(string name, string description, string brand, decimal price)
         {
@@ -28,10 +28,11 @@ namespace Project.Chasing.Rain.Domain.Catalog
             {
                 throw new ArgumentException("Price must be greater than zero.");
             }
-            Name = name;
-            Description = description;
-            Brand = brand;
-            Price = price;
+            this.Name = name;
+            this.Description = description;
+            this.Brand = brand;
+            this.Price = price;
+            this.Ratings = new List<Ratings>();
         }
         public void AddRating(Ratings rating)
         {

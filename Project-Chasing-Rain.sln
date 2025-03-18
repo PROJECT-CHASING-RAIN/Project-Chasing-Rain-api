@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Chasing-Rain.Api", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Chasing-Rain.Domain", "Project-Chasing-Rain.Domain\Project-Chasing-Rain.Domain.csproj", "{45698BB2-A8D5-48AF-AF8C-13FA89B62D89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Chasing-Rain.Data", "Project-Chasing-Rain.Data\Project-Chasing-Rain.Data.csproj", "{F4931BE5-B844-4368-B492-40FF45630E4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{45698BB2-A8D5-48AF-AF8C-13FA89B62D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45698BB2-A8D5-48AF-AF8C-13FA89B62D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45698BB2-A8D5-48AF-AF8C-13FA89B62D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4931BE5-B844-4368-B492-40FF45630E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4931BE5-B844-4368-B492-40FF45630E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4931BE5-B844-4368-B492-40FF45630E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4931BE5-B844-4368-B492-40FF45630E4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

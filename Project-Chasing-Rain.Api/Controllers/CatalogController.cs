@@ -14,7 +14,8 @@ namespace Project.Chasing.Rain.Api.Controllers
             var items = new List<Item>()
             {
                 new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m),
-                new Item("Shorts", "Ohio State shorts.", "Nike", 44.99m)
+                new Item("Shorts", "Ohio State shorts.", "Nike", 44.99m),
+                new Item("Jersey", "Ohio State jersey.", "Nike", 99.99m)
             };
             return Ok(items);
         }

@@ -1,7 +1,7 @@
 ﻿using Project.Chasing.Rain.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jet.Piranha.Data
+namespace Project.Chasing.Rain.Data
 {
     public class StoreContext : DbContext
     {

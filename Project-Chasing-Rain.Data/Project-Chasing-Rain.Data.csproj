@@ -4,6 +4,10 @@
     <ProjectReference Include="..\Project-Chasing-Rain.Domain\Project-Chasing-Rain.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.3" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <RootNamespace>Project_Chasing_Rain.Data</RootNamespace>

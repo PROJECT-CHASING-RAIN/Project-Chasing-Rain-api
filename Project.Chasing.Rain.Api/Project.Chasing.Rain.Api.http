@@ -1,0 +1,6 @@
+@Project.Chasing.Rain.Api_HostAddress = http://localhost:5253
+
+GET {{Project.Chasing.Rain.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

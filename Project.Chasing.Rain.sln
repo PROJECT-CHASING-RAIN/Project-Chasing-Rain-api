@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Chasing.Rain.Api", "Project.Chasing.Rain.Api\Project.Chasing.Rain.Api.csproj", "{0F4078FB-155C-4EB6-8F25-145A01056158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Chasing.Rain.Domain", "Project.Chasing.Rain.Domain\Project.Chasing.Rain.Domain.csproj", "{47E0EAB9-848E-4228-A1BC-0FFF17340A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Chasing.Rain.Data", "Project.Chasing.Rain.Data\Project.Chasing.Rain.Data.csproj", "{90CD4E08-5342-4260-A9E4-CFF3EA74D27E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F4078FB-155C-4EB6-8F25-145A01056158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4078FB-155C-4EB6-8F25-145A01056158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4078FB-155C-4EB6-8F25-145A01056158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4078FB-155C-4EB6-8F25-145A01056158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E0EAB9-848E-4228-A1BC-0FFF17340A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E0EAB9-848E-4228-A1BC-0FFF17340A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E0EAB9-848E-4228-A1BC-0FFF17340A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E0EAB9-848E-4228-A1BC-0FFF17340A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CD4E08-5342-4260-A9E4-CFF3EA74D27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CD4E08-5342-4260-A9E4-CFF3EA74D27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CD4E08-5342-4260-A9E4-CFF3EA74D27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CD4E08-5342-4260-A9E4-CFF3EA74D27E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

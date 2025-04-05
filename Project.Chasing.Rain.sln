@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Chasing.Rain.Domain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Chasing.Rain.Data", "Project.Chasing.Rain.Data\Project.Chasing.Rain.Data.csproj", "{90CD4E08-5342-4260-A9E4-CFF3EA74D27E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{91128992-02F5-473B-9546-19B8271808FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Chasing.Rain.Domain.Tests", "tests\Project.Chasing.Rain.Domain.Tests\Project.Chasing.Rain.Domain.Tests.csproj", "{61F091AC-7553-49F4-8020-323B9CC548AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{90CD4E08-5342-4260-A9E4-CFF3EA74D27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90CD4E08-5342-4260-A9E4-CFF3EA74D27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90CD4E08-5342-4260-A9E4-CFF3EA74D27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F091AC-7553-49F4-8020-323B9CC548AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F091AC-7553-49F4-8020-323B9CC548AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F091AC-7553-49F4-8020-323B9CC548AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F091AC-7553-49F4-8020-323B9CC548AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61F091AC-7553-49F4-8020-323B9CC548AE} = {91128992-02F5-473B-9546-19B8271808FA}
 	EndGlobalSection
 EndGlobal

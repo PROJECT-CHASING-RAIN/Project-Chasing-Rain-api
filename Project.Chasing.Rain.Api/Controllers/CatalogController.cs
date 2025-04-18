@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Project.Chasing.Rain.Domain.Catalog;
 using Project.Chasing.Rain.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Project.Chasing.Rain.Api.Controllers
 {
@@ -90,6 +91,7 @@ namespace Project.Chasing.Rain.Api.Controllers
         // DELETE: /catalog/{id}
         // Deletes an item from the catalog
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult DeleteItem(int id)
         {
             var item = _db.Items.Find(id);
